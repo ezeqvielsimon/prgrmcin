@@ -1,0 +1,21 @@
+int numero;
+    char letra;
+    char palabra[10];
+
+
+    printf("Ingrese una palabra: ");
+    setbuf(stdin,NULL);
+    scanf("%s", &palabra);
+    printf("La palabra es: %s", palabra);
+    /*printf("Ingrese un numero: ");
+    scanf("%d",&numero);
+
+    printf("Ingrese una letra: ");
+    //fflush(stdin);
+    setbuf(stdin,NULL);
+    scanf("%c",&letra);
+
+
+    printf("El numero es: %d\nLa letra es: %c", numero,letra);
+    */
+    return 0;
